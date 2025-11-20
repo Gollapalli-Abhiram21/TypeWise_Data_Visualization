@@ -6,7 +6,7 @@ Executes each analysis section sequentially.
 
 # from outliers1 import run_outlier_analysis
 # from quartiles import run_quartile_analysis
-# from boxplots import run_boxplot_analysis
+from boxplots import run_boxplot_analysis
 # from scatterplots import run_scatter_analysis
 # from linecharts import run_linechart_analysis
 from barcharts import run_barchart_analysis
@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # run_outlier_analysis()
     # run_quartile_analysis()
-    # run_boxplot_analysis()
+    run_boxplot_analysis()
     # run_scatter_analysis()
     # run_linechart_analysis()
     run_barchart_analysis()
