@@ -8,7 +8,7 @@ Executes each analysis section sequentially.
 # from quartiles import run_quartile_analysis
 from boxplots import run_boxplot_analysis
 # from scatterplots import run_scatter_analysis
-# from linecharts import run_linechart_analysis
+from linecharts import run_linechart_analysis
 from barcharts import run_barchart_analysis
 # from summary import run_summary
 
@@ -21,7 +21,7 @@ if __name__ == "__main__":
     # run_quartile_analysis()
     run_boxplot_analysis()
     # run_scatter_analysis()
-    # run_linechart_analysis()
+    run_linechart_analysis()
     run_barchart_analysis()
     # run_summary()
 
