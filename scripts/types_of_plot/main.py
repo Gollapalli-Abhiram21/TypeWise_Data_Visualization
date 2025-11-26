@@ -10,7 +10,7 @@ from boxplots import run_boxplot_analysis
 from scatterplots import run_scatter_analysis
 from linecharts import run_linechart_analysis
 from barcharts import run_barchart_analysis
-# from summary import run_summary
+from summary import run_summary
 
 if __name__ == "__main__":
     print("="*80)
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     run_scatter_analysis()
     run_linechart_analysis()
     run_barchart_analysis()
-    # run_summary()
+    run_summary()
 
     print("\n" + "="*80)
     print("🎉 Execution completed successfully! All visualizations saved in:")
